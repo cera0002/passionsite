@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lystfiskeri</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="imgs/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="navn">LYSTFISKERI</div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#INTRODUKTION">INTRODUKTION</a></li>
+          <li><a href="#GALLERI">GALLERI</a></li>
+          <li><a href="#VIDEO">VIDEO</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="hero">
+          <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+          <dotlottie-player src="https://lottie.host/bd13c565-c980-4639-b4e5-419b236e7daa/VNJ6b3FELf.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player>
+        </div>
+      </section>
+      <section id="INTRODUKTION">
+        <div class="grid1">
+          <div class="tekst">
+            <h1>EN KROG I NATUREN</h1>
+            <div class="h2">
+              <h2>NÅR NATUREN KALDER, OG FISKEN BIDER/DET HELE STARTER VED VANDET</h2>
+            </div>
+            <p>"Der er noget magisk ved at stå ved vandkanten, mærke vinden i ansigtet og vente tålmodigt på det øjeblik, hvor linen strammes. Fiskeri handler ikke kun om fangsten – det er en passion, der forbinder os med naturen, udfordrer vores tålmodighed og belønner os med ro og refleksion."</p>
+          </div>
+          <div class="billede1">
+            <img src="imgs/billede1.webp" alt="billede1 med tekst" />
+          </div>
+        </div>
+      </section>
+      <section id="GALLERI">
+        <h2>ØJEBLIKKE FRA VANDKANTEN</h2>
+        <div class="grid">
+          <div class="billede2">
+            <img src="imgs/billede2.webp" alt="billede 2" />
+          </div>
+          <div class="billede3">
+            <img src="imgs/billede3.webp" alt="billede 3" />
+          </div>
+          <div class="billede4">
+            <img src="imgs/billede4.webp" alt="billede4" />
+          </div>
+          <div class="billede5">
+            <img src="imgs/billede5.webp" alt="billede5" />
+          </div>
+        </div>
+      </section>
+      <section id="VIDEO">
+        <h2>FANGET PÅ FILM: MANNICK SANDVADS FORTÆLLING.</h2>
+        <div class="videoer" id="VIDEO">
+          <div class="video">
+            <video controls poster="imgs/forskærm.webp"><source src="imgs/passion_video1.mp4" type="video/mp4" /></video>
+          </div>
+          <div class="iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AgDu4vJNi4k?si=EwlzAolL5hSVxwVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="menu.js"></script>
+  </body>
+</html>
